@@ -3,9 +3,6 @@ The tutorial aims to display you how to build a simple eCommerce App that you ca
 The code in the repository is the starter code for the eCommerce App with Flutter, Firebase and Stripe. It will help you to follow along the video:
 - YouTube video: https://youtu.be/xYgIY_1ulhw
 
-If you're looking for a more complete eCommerce App template:
-- DynaMart: An eCommerce app template: https://www.atomsbox.com/templates/dyna-mart
-
 ![Intro](screenshots/ecommerce.png) 
 
 
@@ -20,7 +17,6 @@ These screenshots represent the final eCommerce App template that is available f
 | Cart Screen | Checkout Screen | Product Screen|
 | ![User Account](screenshots/ecommerce-user-account.png) | ![Register](screenshots/ecommerce-register.png) | ![Login](screenshots/ecommerce-login.png) |
 | User Account Screen | Register Screen | Login Screen|
-
 
 
 ## Getting Started
