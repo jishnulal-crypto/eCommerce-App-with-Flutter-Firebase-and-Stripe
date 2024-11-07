@@ -37,7 +37,7 @@ const products = [
     "description":
         "Breathable and quick-drying T-shirt, ideal for long-distance running. Available in multiple colors.",
     "price": 29.99,
-    "imageUrl": "https://source.unsplash.com/random/?sport,clothes",
+    "imageUrl": "https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=3097&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Sportswear",
     "stock": 200
   },
@@ -46,7 +46,7 @@ const products = [
     "description":
         "Comfortable and lightweight basketball shorts, designed for optimal movement and durability.",
     "price": 34.99,
-    "imageUrl": "https://source.unsplash.com/random/?sport,clothes",
+    "imageUrl": "https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=3097&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Sportswear",
     "stock": 150
   },
@@ -55,7 +55,7 @@ const products = [
     "description":
         "High-performance cycling jersey with moisture-wicking fabric and rear pockets for essentials.",
     "price": 45.99,
-    "imageUrl": "https://source.unsplash.com/random/?sport,clothes",
+    "imageUrl": "https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=3097&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Cycling",
     "stock": 100
   },
@@ -64,7 +64,7 @@ const products = [
     "description":
         "Durable and supportive trail running shoes with enhanced grip for rough terrain.",
     "price": 89.99,
-    "imageUrl": "https://source.unsplash.com/random/?sport,clothes",
+    "imageUrl": "https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=3097&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Footwear",
     "stock": 80
   },
@@ -73,7 +73,7 @@ const products = [
     "description":
         "Comfortable tracksuit for fitness training, made with flexible and sweat-wicking material.",
     "price": 59.99,
-    "imageUrl": "https://source.unsplash.com/random/?sport,clothes",
+    "imageUrl": "https://images.unsplash.com/photo-1483721310020-03333e577078?q=80&w=3097&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "category": "Sportswear",
     "stock": 120
   }

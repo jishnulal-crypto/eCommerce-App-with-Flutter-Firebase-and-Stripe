@@ -1,4 +1,6 @@
 import 'package:db_client/db_client.dart';
+import 'package:ecommerce_with_flutter_firebase_and_stripe/screens/login_screen.dart';
+import 'package:ecommerce_with_flutter_firebase_and_stripe/screens/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
@@ -34,7 +36,7 @@ Future<void> main() async {
 
   // TODO: Add your Stripe publishable key here
   Stripe.publishableKey =
-      'pk_test_51L7cFkBAloH97gpnJnFBulAdxQ5IcE3C2LXUAVAQSe9c0iFh96N3EwndUU4Qdh7D2i20NnlMxevzWYN2iasrRcwJ00Ipz5b6sL';
+      'pk_test_51M79zJSAmi0EtLABvEkxzWfqVQKXnbwgWMW7a0u4CKsKKOH0FnQ5SDXfRz4VLBnmMt6d5k87o7GVm6mUv8lDEvU800UkNw8eZc';
   await Stripe.instance.applySettings();
   runApp(const MyApp());
 }
@@ -50,8 +52,13 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CategoriesScreen(),
+      home: SplashScreen(),
       onGenerateRoute: (settings) {
+        if (settings.name == '/splash') {
+          return MaterialPageRoute(
+            builder: (context) => LoginScreen(),
+          );
+        }
         if (settings.name == '/categories') {
           return MaterialPageRoute(
             builder: (context) => const CategoriesScreen(),
@@ -75,7 +82,7 @@ class MyApp extends StatelessWidget {
           );
         } else {
           return MaterialPageRoute(
-            builder: (context) => const CategoriesScreen(),
+            builder: (context) => SplashScreen(),
           );
         }
       },

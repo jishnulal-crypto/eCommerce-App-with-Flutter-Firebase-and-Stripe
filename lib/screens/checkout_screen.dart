@@ -105,17 +105,17 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
     print(response);
     if (response['requiresAction'] == true &&
         response['clientSecret'] != null) {
-      // final paymentIntent =
-      //     await Stripe.instance.handleNextAction(response['clientSecret']);
+      final paymentIntent =
+          await Stripe.instance.handleNextAction(response['clientSecret']);
 
-      // print(paymentIntent);
-      // if (paymentIntent.status == PaymentIntentsStatus.RequiresConfirmation) {
-      // final response = await paymentClient.confirmPayment(
-      //   paymentIntentId: paymentIntent.id,
-      // );
+      print(paymentIntent);
+      if (paymentIntent.status == PaymentIntentsStatus.RequiresConfirmation) {
+        final response = await paymentClient.confirmPayment(
+          paymentIntentId: paymentIntent.id,
+        );
 
-      // print(response);
-      // }
+        print(response);
+      }
     }
   }
 }

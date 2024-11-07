@@ -8,7 +8,7 @@ import '../models/product.dart';
 class CatalogScreen extends StatefulWidget {
   const CatalogScreen({
     super.key,
-    required this.category,
+    required this.category
   });
 
   final String category;
@@ -41,6 +41,9 @@ class _CatalogScreenState extends State<CatalogScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        floatingActionButton: FloatingActionButton(onPressed: () {
+          productRepository.createProducts();
+        }),
         appBar: AppBar(
           title: Text(
             'Catalog',
@@ -68,7 +71,7 @@ class _CatalogScreenState extends State<CatalogScreen> {
                 onTap: () {
                   cartRepository.addProductToCart(product, 1);
                   setState(() {});
-                },
+                }, 
                 leading: Image.network(
                   product.imageUrl,
                   width: 100,

@@ -50,19 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBQbQYs6mJy8OYYftFF43Jjn0Av6tIjwPg',
-    appId: '1:531689096987:android:5d02909c787a7641fff5be',
-    messagingSenderId: '531689096987',
-    projectId: 'atomsbox-ecomm-27d08',
-    storageBucket: 'atomsbox-ecomm-27d08.appspot.com',
+    apiKey: 'AIzaSyD17FUtU2tjWTsJFNlV7DDkNdJ3Q0qBBNg',
+    appId: '1:189616622499:android:33385044a652df30a7e816',
+    messagingSenderId: '189616622499',
+    projectId: 'booking-72492',
+    storageBucket: 'booking-72492.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCSPKk73Y0132pOD5Ps97JvsSi67McZjY8',
-    appId: '1:531689096987:ios:5c228e49133f23f3fff5be',
-    messagingSenderId: '531689096987',
-    projectId: 'atomsbox-ecomm-27d08',
-    storageBucket: 'atomsbox-ecomm-27d08.appspot.com',
+    apiKey: 'AIzaSyCcOT5uWmfpCock-ks8nWAOTkqTJyzC708',
+    appId: '1:189616622499:ios:acaaa397e2c32f5ea7e816',
+    messagingSenderId: '189616622499',
+    projectId: 'booking-72492',
+    storageBucket: 'booking-72492.firebasestorage.app',
     iosBundleId: 'com.example.ecommerceWithFlutterFirebaseAndStripe',
   );
+
 }
